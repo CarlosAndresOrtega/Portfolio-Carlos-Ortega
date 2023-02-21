@@ -1,0 +1,13 @@
+body[data-theme="light"] {
+    @import '../src/scss/light-slider.scss';
+    :root {
+        --color1: #6dc1fe;
+        --color2: #3d84fd;
+        --color3: #1a509b;
+        --color4: #101f41;
+        --color5: #140f07;
+      }
+    .slider-tab {
+       background-color: var(--color1);
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 My name is Carlos Andrés Ortega Yate, I am a Multimedia Engineer from the city of Cali, Colombia. I consider myself a person passionate about Front-End web development, but I have also worked on personal projects as a Full-Stack developer. I love creating web experiences that integrate 3D models. I am also a big fan of 3D and 2D animation, participating in several projects that integrate 3D animation.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Manuals of the future",
+        "startDate": "2022",
+        "description": "This project, I made it to maderkit S.A. consists of an app whose function is the assistant for the assembly of furniture. Replacing the classic manuals in sheets. For this project, I used React js, in addition to implementing Three js for the use of different glb models. For this project I was also in charge of developing the animation pattern for the different assembly steps.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.png",
+          "images/portfolio/animal-shelter/p2.gif"
+        ],
+        "url": "https://3dymedios.com/AA/AppArmado/#/M01377",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-threejs-original",
+            "name": "Threejs"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-blender-original",
+            "name": "Blender"
+          }
+        ]
+      },
+      {
+        "title": "AR Apps",
+        "startDate": "2023",
+        "description": "These projects were developed for Maderkit S.A. These projects consist of two different apps, which are used as 3D model viewers. These apps also implemented the function of viewing the 3D model in augmented reality. The first app was developed to be implemented on Maderkit S.A.'s website. The second app was developed for Maderkit S.A.'s clients, changing its style depending on the client and focusing mainly to be used on mobile devices.",
+        "images": [
+          "images/portfolio/photography/p1.png",
+          "images/portfolio/photography/maderkit.mp4"
+        ],
+        "url": "https://3dymedios.com/AT/AppTiendas/#/HomeCenter/M01735ES-WEBL",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-blender-original",
+            "name": "Blender"
+          }
+        ]
+      },
+      {
+        "title": "DevianArt",
+        "startDate": "2021",
+        "description": "This is my art blog. In it, you can find some illustrations that i created by hobbit or for projects of the university.",
+        "images": [
+          "images/portfolio/adventure/p1.png"
+        ],
+        "url": "https://www.deviantart.com/zenakusama",
+        "technologies": [
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          },
+          {
+            "class": "devicon-illustrator-plain",
+            "name": "Illustrator"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Maderkit S.A",
+        "title": "Web Developer",
+        "years": "05.2022 - present",
+        "mainTech": [
+          "React 18",
+          "R3f-Perf 6.5",
+          "Zustand 4.1"
+        ],
+        "technologies": [
+          "React js",
+          "Webpack",
+          "JavaScript",
+          "Threejs",
+          "Model-viewer",
+          "Blender",
+          "Rhino",
+          "Bootstrap",
+          "Illustrator",
+          "Photoshop"
+        ]
+      },
+      {
+        "company": "Digital content creator",
+        "title": "Intern",
+        "years": "12.2021 - 05.2022",
+        "mainTech": [
+          "Webpack 5",
+          "Spark AR 132",
+          "Threejs"
+        ],
+        "technologies": [
+          "Model-viewer",
+          "Threejs",
+          "Blender",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      }
+    ]
+  }
