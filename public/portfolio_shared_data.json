@@ -12,6 +12,16 @@
           "name": "Linkedin",
           "url": "https://www.linkedin.com/in/carlos-andres-ortega-yate-734967211/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Email",
+          "url": "mailto:caortegayate@gmail.com",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "CellPhone",
+          "url": "tel:+573275079517",
+          "class": "fa fa-phone"
         }
       ],
       "image": "myProfile.jpg"

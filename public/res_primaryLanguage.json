@@ -1,7 +1,8 @@
 {
     "basic_info": {
+      "titlesE": [ "Multimedia Engineer", "Front-end Developer",  "Mid Animator", "Web Developer" ],
       "description_header": "Hi",
-      "description": "👋 My name is Carlos Andrés Ortega Yate, I am a Multimedia Engineer from the city of Cali, Colombia. I consider myself a person passionate about Front-End web development, but I have also worked on personal projects as a Full-Stack developer. I love creating web experiences that integrate 3D models. I am also a big fan of 3D and 2D animation, participating in several projects that integrate 3D animation.",
+      "description": "👋 My name is Carlos Andrés Ortega Yate, I am a Multimedia Engineer from San Buenaventura University, Cali, Colombia. I consider myself a person passionate about Front-End web development, but I have also worked on personal projects as a Full-Stack developer. I love creating web experiences that integrate 3D models. I'm also a big fan of 3D and 2D animation.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,7 +14,7 @@
       {
         "title": "Manuals of the future",
         "startDate": "2022",
-        "description": "This project, I made it to maderkit S.A. consists of an app whose function is the assistant for the assembly of furniture. Replacing the classic manuals in sheets. For this project, I used React js, in addition to implementing Three js for the use of different glb models. For this project I was also in charge of developing the animation pattern for the different assembly steps.",
+        "description": "This project was done as a worker of Maderkit S.A, which consists of an application that works as an assistant for the assembly of furniture, replacing the classic manual sheets. For this project I used React js, besides implementing Threejs for the use of the different glb models. For this project I was also in charge of developing the animation pattern for the different assembly steps.",
         "images": [
           "images/portfolio/animal-shelter/p1.png",
           "images/portfolio/animal-shelter/p2.gif"
@@ -41,10 +42,10 @@
       {
         "title": "AR Apps",
         "startDate": "2023",
-        "description": "These projects were developed for Maderkit S.A. These projects consist of two different apps, which are used as 3D model viewers. These apps also implemented the function of viewing the 3D model in augmented reality. The first app was developed to be implemented on Maderkit S.A.'s website. The second app was developed for Maderkit S.A.'s clients, changing its style depending on the client and focusing mainly to be used on mobile devices.",
+        "description": "These projects were developed as a Maderkit S.A. worker. These projects consist of two different apps, which are used as 3D model viewers. In these apps is also implemented the function of viewing the 3D model in augmented reality. The first app was developed to be implemented in the website of Maderkit S.A. The second app was developed for clients of Maderkit S.A., changing its style depending on the client and mainly focused to be used in mobile devices.",
         "images": [
           "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/maderkit.mp4"
+          "images/portfolio/photography/p2.png"
         ],
         "url": "https://3dymedios.com/AT/AppTiendas/#/HomeCenter/M01735ES-WEBL",
         "technologies": [
@@ -80,13 +81,60 @@
             "name": "Illustrator"
           }
         ]
+      },
+      {
+        "title": "Dont Drop",
+        "startDate": "2019",
+        "description": "In this project, I was primarily responsible for the production of the animations and design of the four eligible characters in the game.  The animations developed included jumping, attacking and running animations.",
+        "images": [
+          "images/portfolio/DontDrop/p1.webp",
+          "images/portfolio/DontDrop/p2.png"
+        ],
+        "url": "https://play.google.com/store/apps/details?id=com.DivisionStudios.DontDrop",
+        "technologies": [
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          },
+          {
+            "class": "devicon-illustrator-plain",
+            "name": "Illustrator"
+          }
+        ]
+      },
+      {
+        "title": "Personal projects",
+        "startDate": "2018-2021",
+        "description": "In this link to a shared folder in drive, you can find different videos related to several personal projects, including animation projects and videogames developed.",
+        "images": [
+          "images/portfolio/Projects/p1.jpg"
+        ],
+        "url": "https://drive.google.com/drive/folders/1vrcxHT_rBPZnFft5DlqfAHerCcwRxSWq?usp=sharing",
+        "technologies": [
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          },
+          {
+            "class": "devicon-blender-original",
+            "name": "Blender"
+          },
+          {
+            "class": "devicon-javascript-plain",          
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-unity-original",          
+            "name": "Unity"
+          }
+        ]
       }
     ],
     "experience": [
       {
         "company": "Maderkit S.A",
         "title": "Web Developer",
-        "years": "05.2022 - present",
+        "years": "2021 - 2023",
         "mainTech": [
           "React 18",
           "R3f-Perf 6.5",
@@ -103,25 +151,64 @@
           "Bootstrap",
           "Illustrator",
           "Photoshop"
-        ]
+        ],
+        "text":{
+          "Main":"Principal technologies",
+          "Others": "Other technologies used: "
+        }
       },
       {
-        "company": "Digital content creator",
-        "title": "Intern",
-        "years": "12.2021 - 05.2022",
+        "company": "Freelancer",
+        "title": "Front-end developer",
+        "years": "2020",
         "mainTech": [
-          "Webpack 5",
-          "Spark AR 132",
+          "WebSockects",
+          "React",
           "Threejs"
         ],
         "technologies": [
-          "Model-viewer",
-          "Threejs",
+          "Node js",
+          "Express js",
+          "Typescript",
+          "Three js",
           "Blender",
           "JavaScript",
           "HTML",
-          "CSS"
-        ]
+          "CSS",
+          "Illustrator",
+          "Photoshop"
+        ],
+        "text":{
+          "Main":"Principal technologies",
+          "Others": "Other technologies used: "
+        }
+
+      },
+      {
+        "company": "College",
+        "title": "Multimedia Engenieer",
+        "years": "2018 - 2023",
+        "mainTech": [
+          "Unity",
+          "React",
+          "C#"
+        ],
+        "technologies": [
+          "Phyton",
+          "Threejs",
+          "3d Max",
+          "Postman",
+          "Mongodb",
+          "Scrum",
+          "Desing Thinking",
+          "C#"
+        ],
+        "text":{
+          "Main":"Principal technologies",
+          "Others": "Other technologies used: "
+        }
+
       }
     ]
+    
   }

@@ -11,7 +11,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: #fff;
       opacity: 0.8;
    }
 
@@ -71,6 +71,13 @@ body[data-theme="dark"] {
       background: #5b5b5b;
       .section-title {
          color: white !important;
+      }
+      .mainTecnologie{
+         background: #6d6d6d;
+      }
+      .OtherTecnologie{
+         color: white;
+         color: #6d6d6d;
       }
 
       .experience-badge {

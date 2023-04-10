@@ -10,4 +10,13 @@ body[data-theme="light"] {
     .slider-tab {
        background-color: var(--color1);
     }
+    #resume {
+      .mainTecnologie{
+        background: #101f41;
+      }
+      .OtherTecnologie{
+        background: #fff;
+        color: #101f41;
+      }
+    }
 }

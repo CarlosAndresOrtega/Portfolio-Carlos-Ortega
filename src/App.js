@@ -26,7 +26,6 @@ class App extends Component {
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
-      console.log(resumePath)
     this.loadResumeFromPath(resumePath);
   }
 
@@ -84,7 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData.basic_info} resumeBasicInfo={this.state.resumeData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>

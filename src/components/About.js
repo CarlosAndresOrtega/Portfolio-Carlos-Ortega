@@ -72,7 +72,7 @@ class About extends Component {
 
             <div className="col-md-8 center">
               <div className="col-md-10">
-                <div className="card">
+                <div className="card" style={{fontSize: "1.3rem"}}>
                   <div className="card-header">
                     <span
                       className="iconify"
