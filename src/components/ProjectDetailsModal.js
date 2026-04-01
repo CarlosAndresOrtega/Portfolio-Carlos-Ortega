@@ -14,6 +14,9 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
+          if (!icons) {
+            return null;
+          }
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>

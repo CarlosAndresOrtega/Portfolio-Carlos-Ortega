@@ -19,8 +19,16 @@ function publicJsonUrl(filename) {
   return `${base}/${name}`;
 }
 
-class App extends Component {
+function fetchJson(url) {
+  return fetch(url, { cache: "no-store" }).then((res) => {
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status} for ${url}`);
+    }
+    return res.json();
+  });
+}
 
+class App extends Component {
   constructor(props) {
     super();
     this.state = {
@@ -29,15 +37,17 @@ class App extends Component {
       sharedData: {},
     };
   }
-  
+
+  resumePathForCurrentLang() {
+    return document.documentElement.lang === window.$primaryLanguage
+      ? publicJsonUrl("res_primaryLanguage.json")
+      : publicJsonUrl("res_secondaryLanguage.json");
+  }
+
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? publicJsonUrl("res_primaryLanguage.json")
-        : publicJsonUrl("res_secondaryLanguage.json");
-    this.loadResumeFromPath(resumePath);
+    this.loadResumeFromPath(this.resumePathForCurrentLang());
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
@@ -54,11 +64,23 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    document.documentElement.lang = window.$primaryLanguage;
+    this.swapCurrentlyActiveLanguage(window.$secondaryLanguageIconId);
+
+    const sharedUrl = publicJsonUrl("portfolio_shared_data.json");
+    const resumeUrl = publicJsonUrl("res_primaryLanguage.json");
+
+    Promise.all([fetchJson(sharedUrl), fetchJson(resumeUrl)])
+      .then(([sharedData, resumeData]) => {
+        this.setState({ sharedData, resumeData });
+        if (sharedData.basic_info && sharedData.basic_info.name) {
+          document.title = sharedData.basic_info.name;
+        }
+      })
+      .catch((err) => {
+        console.error(err);
+        alert(err.message || String(err));
+      });
   }
 
   loadResumeFromPath(path) {
@@ -68,24 +90,6 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
-        // console.log(resumeData)
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
-  loadSharedData() {
-    $.ajax({
-      url: publicJsonUrl("portfolio_shared_data.json"),
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ sharedData: data });
-        if (data.basic_info && data.basic_info.name) {
-          document.title = data.basic_info.name;
-        }
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -96,7 +100,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} resumeBasicInfo={this.state.resumeData.basic_info} />
+        <Header
+          sharedData={this.state.sharedData.basic_info}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>

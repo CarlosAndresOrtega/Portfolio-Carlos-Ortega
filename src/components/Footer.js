@@ -2,8 +2,12 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+    var networks;
+    if (this.props.sharedBasicInfo && this.props.sharedBasicInfo.social) {
+      networks = this.props.sharedBasicInfo.social.map(function (network) {
+        if (!network) {
+          return null;
+        }
         return (
           <>
           <span key={network.name} className="m-4">

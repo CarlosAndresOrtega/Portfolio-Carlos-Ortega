@@ -26,13 +26,11 @@ class Header extends Component {
 
   render() {
     var name="Carlos Andres Ortega Yate";
-    if (
-      this.props.resumeBasicInfo &&
-      this.props.sharedData &&
-      this.props.sharedData.name
-    ) {
-      name = this.props.sharedData.name;
-      this.titles = this.props.resumeBasicInfo.titlesE.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+    var resume = this.props.resumeBasicInfo;
+    var shared = this.props.sharedData;
+    if (resume && shared && shared.name && resume.titlesE) {
+      name = shared.name;
+      this.titles = resume.titlesE.map((x) => [x.toUpperCase(), 1500]).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {

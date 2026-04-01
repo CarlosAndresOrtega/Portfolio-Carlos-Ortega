@@ -5,6 +5,9 @@ class Skills extends Component {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
       var skills = this.props.sharedSkills.icons.map(function (skills, i) {
+        if (!skills) {
+          return null;
+        }
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
