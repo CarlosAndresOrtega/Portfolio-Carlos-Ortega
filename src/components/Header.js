@@ -26,7 +26,11 @@ class Header extends Component {
 
   render() {
     var name="Carlos Andres Ortega Yate";
-    if (this.props.resumeBasicInfo && this.props.sharedData.name) {
+    if (
+      this.props.resumeBasicInfo &&
+      this.props.sharedData &&
+      this.props.sharedData.name
+    ) {
       name = this.props.sharedData.name;
       this.titles = this.props.resumeBasicInfo.titlesE.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
