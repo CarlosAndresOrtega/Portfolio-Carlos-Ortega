@@ -1,7 +1,12 @@
 {
     "basic_info": {
       "name": "Carlos Andres Ortega Yate",
-      "titles": [ "Multimedia Engineer", "Front-end Developer",  "Mid Animator", "Web Developer" ],
+      "titles": [
+        "Full Stack Developer",
+        "Front-End Developer",
+        "Multimedia Engineer",
+        "Web Developer"
+      ],
       "social": [
         {
           "name": "github",
@@ -20,7 +25,7 @@
         },
         {
           "name": "CellPhone",
-          "url": "tel:+573275079517",
+          "url": "tel:+573245079517",
           "class": "fa fa-phone"
         }
       ],
@@ -29,54 +34,64 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "90"
         },
         {
           "name": "React",
           "class": "devicon-react-plain",
+          "level": "88"
+        },
+        {
+          "name": "NestJS",
+          "class": "devicon-nestjs-plain",
+          "level": "85"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "82"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "85"
+        },
+        {
+          "name": ".NET",
+          "class": "devicon-dotnetcore-plain",
+          "level": "78"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
           "level": "80"
         },
         {
-          "name": "Threejs",
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "75"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "80"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "78"
+        },
+        {
+          "name": "Three.js",
           "class": "devicon-threejs-original",
-          "level": "90"
+          "level": "88"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Blender",
-          "class": "devicon-blender-original",
           "level": "85"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain",
-          "level": "65"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "60"
-        },
-        {
-          "name": "Mongodb",
-          "class": "devicon-mongodb-plain",
-          "level": "60"
         }
       ]
     }

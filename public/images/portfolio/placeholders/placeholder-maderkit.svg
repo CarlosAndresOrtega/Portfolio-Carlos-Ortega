@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Placeholder">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a3018"/>
+      <stop offset="100%" style="stop-color:#6b4524"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <rect x="40" y="40" width="720" height="370" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2" rx="8"/>
+  <text x="400" y="200" font-family="system-ui,-apple-system,sans-serif" font-size="22" fill="#fceee0" text-anchor="middle">Maderkit · 3D &amp; AR</text>
+  <text x="400" y="240" font-family="system-ui,-apple-system,sans-serif" font-size="16" fill="rgba(252,238,224,0.75)" text-anchor="middle">Imagen de proyecto (pendiente)</text>
+</svg>

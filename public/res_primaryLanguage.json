@@ -1,214 +1,309 @@
 {
     "basic_info": {
-      "titlesE": [ "Multimedia Engineer", "Front-end Developer",  "Mid Animator", "Web Developer" ],
-      "description_header": "Hi",
-      "description": "👋 My name is Carlos Andrés Ortega Yate, I am a Multimedia Engineer from San Buenaventura University, Cali, Colombia. I consider myself a person passionate about Front-End web development, but I have also worked on personal projects as a Full-Stack developer. I love creating web experiences that integrate 3D models. I'm also a big fan of 3D and 2D animation.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+        "titlesE": [
+            "Full Stack Developer",
+            "Front-End Developer",
+            "Multimedia Engineer",
+            "Web Developer"
+        ],
+        "description_header": "Hi",
+        "description": "👋 I'm Carlos Andrés Ortega Yate, a Full Stack Developer with a Multimedia Engineering degree from Universidad San Buenaventura (Cali, Colombia). I build high-impact digital experiences, with a focus on microservices, cloud, and agile delivery. I lead technical work, solve complex problems, and keep learning in areas like Generative AI, microservices, and cloud. English: B2 (professional operational proficiency). I still love 3D on the web and creative tech when the project calls for it.",
+        "section_name": {
+            "about": "About me",
+            "projects": "Projects",
+            "skills": "Skills",
+            "experience": "Experience"
+        }
     },
     "projects": [
-      {
-        "title": "Manuals of the future",
-        "startDate": "2022",
-        "description": "This project was done as a worker of Maderkit S.A, which consists of an application that works as an assistant for the assembly of furniture, replacing the classic manual sheets. For this project I used React js, besides implementing Threejs for the use of the different glb models. For this project I was also in charge of developing the animation pattern for the different assembly steps.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.png",
-          "images/portfolio/animal-shelter/p2.gif"
-        ],
-        "url": "https://3dymedios.com/AA/AppArmado/#/M01377",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-threejs-original",
-            "name": "Threejs"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-blender-original",
-            "name": "Blender"
-          }
-        ]
-      },
-      {
-        "title": "AR Apps",
-        "startDate": "2023",
-        "description": "These projects were developed as a Maderkit S.A. worker. These projects consist of two different apps, which are used as 3D model viewers. In these apps is also implemented the function of viewing the 3D model in augmented reality. The first app was developed to be implemented in the website of Maderkit S.A. The second app was developed for clients of Maderkit S.A., changing its style depending on the client and mainly focused to be used in mobile devices.",
-        "images": [
-          "images/portfolio/photography/p1.png",
-          "images/portfolio/photography/p2.png"
-        ],
-        "url": "https://3dymedios.com/AT/AppTiendas/#/HomeCenter/M01735ES-WEBL",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-blender-original",
-            "name": "Blender"
-          }
-        ]
-      },
-      {
-        "title": "DevianArt",
-        "startDate": "2021",
-        "description": "This is my art blog. In it, you can find some illustrations that i created by hobbit or for projects of the university.",
-        "images": [
-          "images/portfolio/adventure/p1.png"
-        ],
-        "url": "https://www.deviantart.com/zenakusama",
-        "technologies": [
-          {
-            "class": "devicon-photoshop-plain",
-            "name": "Photoshop"
-          },
-          {
-            "class": "devicon-illustrator-plain",
-            "name": "Illustrator"
-          }
-        ]
-      },
-      {
-        "title": "Dont Drop",
-        "startDate": "2019",
-        "description": "In this project, I was primarily responsible for the production of the animations and design of the four eligible characters in the game.  The animations developed included jumping, attacking and running animations.",
-        "images": [
-          "images/portfolio/DontDrop/p1.webp",
-          "images/portfolio/DontDrop/p2.png"
-        ],
-        "url": "https://play.google.com/store/apps/details?id=com.DivisionStudios.DontDrop",
-        "technologies": [
-          {
-            "class": "devicon-photoshop-plain",
-            "name": "Photoshop"
-          },
-          {
-            "class": "devicon-illustrator-plain",
-            "name": "Illustrator"
-          }
-        ]
-      },
-      {
-        "title": "Personal projects",
-        "startDate": "2018-2021",
-        "description": "In this link to a shared folder in drive, you can find different videos related to several personal projects, including animation projects and videogames developed.",
-        "images": [
-          "images/portfolio/Projects/p1.jpg"
-        ],
-        "url": "https://drive.google.com/drive/folders/1vrcxHT_rBPZnFft5DlqfAHerCcwRxSWq?usp=sharing",
-        "technologies": [
-          {
-            "class": "devicon-photoshop-plain",
-            "name": "Photoshop"
-          },
-          {
-            "class": "devicon-blender-original",
-            "name": "Blender"
-          },
-          {
-            "class": "devicon-javascript-plain",          
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-unity-original",          
-            "name": "Unity"
-          }
-        ]
-      }
+        {
+            "title": "CarScan & Stoyco (Double V Partners)",
+            "startDate": "2025–present",
+            "description": "I lead development of the CarScan portal on microservices with NestJS and PostgreSQL, AWS SQS and Cognito, plus .NET 8 APIs and the Stoyco admin experience in Angular 18 (Atomic Design). Shots reference StoyCo, CarScan Ecuador, and Double V Partners.",
+            "images": [
+                "images/portfolio/dvp-stoyco/double-v-partners-home.png",
+                "images/portfolio/dvp-stoyco/stoyco-home.png",
+                "https://www.carscan.com.ec/carscan-opengraph.webp"
+            ],
+            "url": "https://www.doublevpartners.com/",
+            "technologies": [
+                {
+                    "class": "devicon-nestjs-plain",
+                    "name": "NestJS"
+                },
+                {
+                    "class": "devicon-angularjs-plain",
+                    "name": "Angular 18"
+                },
+                {
+                    "class": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "class": "devicon-amazonwebservices-plain-wordmark",
+                    "name": "AWS"
+                },
+                {
+                    "class": "devicon-dotnetcore-plain",
+                    "name": ".NET 8"
+                },
+                {
+                    "class": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                }
+            ]
+        },
+        {
+            "title": "Caminos de la Sierra (Kenility)",
+            "startDate": "2025",
+            "description": "Implementation of mockups and critical features for the Caminos de la Sierra platform while at Kenility: WebSockets, Firebase, Docker/Kubernetes, admin portals, and multilingual flows. Imagery: Kenility “About Us” page and the Caminos de las Sierras public portal.",
+            "images": [
+                "images/portfolio/kenility-caminos/kenility-about-us.png",
+                "https://caminosdelassierras.com.ar/wp-content/uploads/2024/10/CaminoDelaS-scaled.webp"
+            ],
+            "url": "https://caminosdelassierras.com.ar/",
+            "technologies": [
+                {
+                    "class": "devicon-angularjs-plain",
+                    "name": "Angular"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-docker-plain",
+                    "name": "Docker"
+                },
+                {
+                    "class": "devicon-kubernetes-plain",
+                    "name": "Kubernetes"
+                },
+                {
+                    "class": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                }
+            ]
+        },
+        {
+            "title": "Enterprise portals (Codesa)",
+            "startDate": "2023–2025",
+            "description": "High-performance web applications with Angular 17 and React for administrative and entertainment portals. Microfrontend architecture, efficient Java REST APIs, and D3.js for real-time seat and event management. Gallery: Codesa brand hero, SuperGiros Kash product experience, and W ARENA ticketing.",
+            "images": [
+                "images/portfolio/codesa/codesa-banner.png",
+                "images/portfolio/codesa/supergiros-kash.png",
+                "images/portfolio/codesa/w-arena-home.png"
+            ],
+            "url": "https://www.codesa.com.co/",
+            "technologies": [
+                {
+                    "class": "devicon-angularjs-plain",
+                    "name": "Angular 17"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "D3.js"
+                }
+            ]
+        },
+        {
+            "title": "3D & AR product experiences (Maderkit)",
+            "startDate": "2021–2023",
+            "description": "At Maderkit I built web experiences with React and Three.js: the online furniture store, interactive 3D assembly assistants (replacing paper manuals), AR viewers for product catalogs, and white-label flows for retail clients.",
+            "images": [
+                "images/portfolio/maderkit/maderkit-tienda-online.png",
+                "images/portfolio/animal-shelter/p1.png",
+                "images/portfolio/photography/p1.png"
+            ],
+            "url": "https://3dymedios.com/AA/AppArmado/#/M01377",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-threejs-original",
+                    "name": "Three.js"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-blender-original",
+                    "name": "Blender"
+                }
+            ]
+        },
+        {
+            "title": "Dongus (Freelance — delivery app)",
+            "startDate": "2020",
+            "description": "As a freelancer in 2020 I designed and implemented the user interface for Dongus, Cali's delivery app: custom Angular screens, real-time flows with WebSockets, Mobile First layout, and advanced CSS. Visuals: Google Play desktop listing plus in-app screenshots from the store.",
+            "images": [
+                "images/portfolio/dongus/dongus-play-store-desktop.png",
+                "https://play-lh.googleusercontent.com/54Dm-ZZEH5WXl1_X8hJZxPEn7KoEhPcB5edJaRw8GX3FckvEm_0Zv3MNK9dFnzV21lQ=w1052-h592",
+                "https://play-lh.googleusercontent.com/7IxLPjMEEr4M1hdOnEf4nW_-vtorf0NsbYBjEea75Txkxs7Bw7tU8e-tdFQdijsB9j4=w1052-h592"
+            ],
+            "url": "https://play.google.com/store/apps/details?id=com.dstudios.dongus",
+            "technologies": [
+                {
+                    "class": "devicon-angularjs-plain",
+                    "name": "Angular"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS3"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML5"
+                }
+            ]
+        }
     ],
     "experience": [
-      {
-        "company": "Maderkit S.A",
-        "title": "Web Developer",
-        "years": "2021 - 2023",
-        "mainTech": [
-          "React 18",
-          "R3f-Perf 6.5",
-          "Zustand 4.1"
-        ],
-        "technologies": [
-          "React js",
-          "Webpack",
-          "JavaScript",
-          "Threejs",
-          "Model-viewer",
-          "Blender",
-          "Rhino",
-          "Bootstrap",
-          "Illustrator",
-          "Photoshop"
-        ],
-        "text":{
-          "Main":"Principal technologies",
-          "Others": "Other technologies used: "
+        {
+            "company": "Double V Partners",
+            "title": "Full Stack Developer",
+            "years": "Aug 2025 - Present",
+            "mainTech": [
+                "NestJS",
+                "Angular 18",
+                "PostgreSQL"
+            ],
+            "technologies": [
+                "AWS SQS",
+                "AWS Cognito",
+                ".NET 8",
+                "Microservices",
+                "Atomic Design",
+                "CarScan",
+                "Stoyco admin"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
+        },
+        {
+            "company": "Kenility",
+            "title": "Frontend Developer",
+            "years": "Feb 2025 - Aug 2025",
+            "mainTech": [
+                "Angular",
+                "Firebase",
+                "WebSockets"
+            ],
+            "technologies": [
+                "Docker",
+                "Kubernetes",
+                "Push notifications",
+                "i18n",
+                "Caminos de la Sierra"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
+        },
+        {
+            "company": "Codesa",
+            "title": "Front-End Developer",
+            "years": "Aug 2023 - Feb 2025",
+            "mainTech": [
+                "Angular 17",
+                "React",
+                "Microfrontends"
+            ],
+            "technologies": [
+                "Java",
+                "REST APIs",
+                "D3.js",
+                "Admin & entertainment portals"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
+        },
+        {
+            "company": "Maderkit S.A",
+            "title": "Web Developer",
+            "years": "Dec 2021 - Mar 2023",
+            "mainTech": [
+                "React 18",
+                "Three.js",
+                "Webpack"
+            ],
+            "technologies": [
+                "JavaScript",
+                "Model-viewer",
+                "Blender",
+                "Rhino",
+                "Bootstrap",
+                "Illustrator",
+                "Photoshop"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
+        },
+        {
+            "company": "Freelancer",
+            "title": "Front-End Developer",
+            "years": "Jan 2020 - Dec 2020",
+            "mainTech": [
+                "Angular",
+                "WebSockets",
+                "CSS"
+            ],
+            "technologies": [
+                "Mobile First",
+                "Live chat",
+                "JavaScript",
+                "HTML",
+                "Responsive UI"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
+        },
+        {
+            "company": "Universidad San Buenaventura",
+            "title": "Multimedia Engineering",
+            "years": "2018 - 2023",
+            "mainTech": [
+                "Unity",
+                "React",
+                "C#"
+            ],
+            "technologies": [
+                "Three.js Journey (2022)",
+                "Python",
+                "3ds Max",
+                "Postman",
+                "MongoDB",
+                "Scrum",
+                "Design Thinking"
+            ],
+            "text": {
+                "Main": "Core technologies",
+                "Others": "Also used: "
+            }
         }
-      },
-      {
-        "company": "Freelancer",
-        "title": "Front-end developer",
-        "years": "2020",
-        "mainTech": [
-          "WebSockects",
-          "React",
-          "Threejs"
-        ],
-        "technologies": [
-          "Node js",
-          "Express js",
-          "Typescript",
-          "Three js",
-          "Blender",
-          "JavaScript",
-          "HTML",
-          "CSS",
-          "Illustrator",
-          "Photoshop"
-        ],
-        "text":{
-          "Main":"Principal technologies",
-          "Others": "Other technologies used: "
-        }
-
-      },
-      {
-        "company": "College",
-        "title": "Multimedia Engenieer",
-        "years": "2018 - 2023",
-        "mainTech": [
-          "Unity",
-          "React",
-          "C#"
-        ],
-        "technologies": [
-          "Phyton",
-          "Threejs",
-          "3d Max",
-          "Postman",
-          "Mongodb",
-          "Scrum",
-          "Desing Thinking",
-          "C#"
-        ],
-        "text":{
-          "Main":"Principal technologies",
-          "Others": "Other technologies used: "
-        }
-
-      }
     ]
-    
-  }
+}
