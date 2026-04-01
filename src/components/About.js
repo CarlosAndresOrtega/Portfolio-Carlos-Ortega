@@ -28,7 +28,7 @@ class About extends Component {
                   <img
                     height="250px"
                     src={profilepic}
-                    alt="Avatar placeholder"
+                    alt="Carlos Ortega"
                   />
                   <svg style={{height:'45px',width:'45px',fontSize: "400%", margin:" 9% 5% 0px"}}
                     fill="none"
